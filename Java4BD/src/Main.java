@@ -19,7 +19,17 @@ public class Main {
         //А это для Staff.Java
         Staff OneStaff = new Staff();
         OneStaff.setFullName("Beer");
-        One.getStaff();
+        OneStaff.getFullName();
+
+        OneStaff.setPost("Aga");
+        OneStaff.getPost();
+
+        OneStaff.setSalary(500);
+        OneStaff.getSalary();
+
+        OneStaff.RandNameStaff();
+        OneStaff.Stat();
+        OneStaff.Anekdot();
 
 
 
