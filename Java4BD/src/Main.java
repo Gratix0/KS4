@@ -30,7 +30,22 @@ public class Main {
         OneStaff.RandNameStaff();
         OneStaff.Stat();
         OneStaff.Anekdot();
+        System.out.println("-------------------------------------------------");
+        //Это для Storaje.Java
 
+        Storage OneStorage = new Storage();
+        OneStorage.setAdress("Pupkin ink");
+        OneStorage.getAdress();
+
+        OneStorage.setStaff(5);
+        OneStorage.getStaff();
+
+        OneStorage.setUnitsOfGoods(500);
+        OneStorage.getUnitsOfGoods();
+
+        OneStorage.RandomAdress();
+        OneStorage.Stat();
+        OneStorage.Latery();
 
 
 
